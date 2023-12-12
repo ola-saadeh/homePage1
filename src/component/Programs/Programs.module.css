@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&display=swap');
+
+
+.tab-pane.show .work-item {
+    display: block;
+  }
+
+.tabs{
+    display: flex !important;
+     
+}
+  h2{
+   
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    color: #637cd0 !important;
+    font-family: 'Dosis' , sans-serif;
+  }
+
+.bgorange{
+    background-color: #36419A !important;
+    color: white !important ;
+}
+.headingcontent{
+    width: fit-content;
+}
+.container{
+    width: 76%;
+    
+
+    margin-left: 12% !important;
+}
+
+.headingcontent span{
+     top: -30px;
+     left: -30px;
+     color: #818181;
+     border-bottom: 1px solid #36419A;
+     padding-right: 15px;
+     font-weight: 500;
+}
+/* start work */
+.work{
+    background-color: #f3f3f3;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: absolute; 
+    top: 300%;
+    right: 0;
+    left: 0;
+    
+}
+
+
+section.work .container .tabs .navlink{
+    font-size: 14px ;
+    border: 1px solid #818181 ;
+    color: #818181  ;
+    border-radius: 30px  ;
+    padding: 5px 20px  t;
+    cursor: pointer  ;
+}
+
+section.work .container .tabs .navlink:hover{
+   border:1px solid #000000  ;
+}
+
+section.work .container .tabs .navlink.active{
+    color: #f3f3f3  ;
+    background-color: #3b5999  ;
+}
+
+ 
+section.work .workitem .overlay{
+    background-color: rgba(0, 0, 0, .4);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform: scaleY(0);
+    transition: transform .5s;
+    border-radius: 15px;
+}
+
+section.work .workitem:hover .overlay{
+    transform: scaleY(1);
+}
+
+section.work .workitem  .searchicon i{
+    top: 45%;
+    right: 45%;
+    opacity: 0;
+    transition: opacity 1s, transform .5s, color .5s, background-color .5s, border .5s;
+    transform: scale(.1);
+}
+
+section.work .workitem:hover .searchicon i{
+    transform: scale(1) rotate(360deg)   ;
+    opacity: 1;
+}
+
+section.work .workitem .overlay .searchicon i:hover{
+    color: #ff724c;
+    background-color: transparent;
+    border: white solid 1px;
+    cursor: pointer;
+}
+
+section.work .workitem .info{
+    bottom: 30px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .6s, bottom .5s;
+}
+
+section.work .workitem:hover .info{
+    opacity: 1;
+    bottom:0;
+}
+
+section.work .workitem .info h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+section.work .workitem .info i{
+    font-size: 20px;
+    color: #3b5999;
+
+}
+/* end work */

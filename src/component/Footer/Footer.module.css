@@ -1,0 +1,27 @@
+
+.oka{
+   
+    position: absolute; 
+    right: 0 !important;
+    left: 0 !important;
+    top: 925% !important;
+
+
+    
+    
+}
+.container{
+    width: 76% ;
+    bottom: 0;
+    /* transform: translateX(-50%); */
+    left: 12%;
+    margin: auto ;
+}
+.myimg{
+    width: 25%;
+}
+/* start footer */
+footer span{
+    color: #3b5999;
+}
+/* end footer */

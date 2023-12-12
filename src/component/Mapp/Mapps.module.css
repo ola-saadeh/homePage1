@@ -1,0 +1,39 @@
+.oka{
+   
+    position: absolute; 
+    right: 0 !important;
+    left: 0 !important;
+    top: 865% !important;
+
+
+    
+    
+}
+/* start map */
+section.map .container{
+    width: 76% ;
+    bottom: 0;
+    /* transform: translateX(-50%); */
+    left: 12%;
+    margin: auto ;
+}
+
+section.map .contactinfo .info i{
+    color:#3b5999 !important;
+    transition: .5s !important;
+    font-size: 12px !important;
+}
+section.map .contactinfo .info h3{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+section.map .contactinfo .info a{
+    text-decoration: none !important;
+}
+
+section.map .contactinfo .info:hover i{
+    transform: rotate(360deg);
+    background-color: #3b5999 !important;
+    color: #fff !important;
+}
+/* end map */

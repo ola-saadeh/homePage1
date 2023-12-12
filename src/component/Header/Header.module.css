@@ -1,0 +1,132 @@
+
+
+.header{
+    height: 100vh;
+    /* background: url('images/homeVe.mp4') no-repeat center center fixed; */
+
+    background-size: cover;
+   
+    background-attachment: fixed;
+    
+   
+}
+ 
+.postionn{
+    
+ 
+    position:absolute;
+}
+
+@media screen and (max-width:991px){
+
+    section.header{
+     background-position: 50%;}
+}
+
+ .container{
+    height: 100vh;
+    width: 76%;
+    
+}
+ .headercontent{
+    right: 0;
+    top: 30%;
+}
+h1,h2{
+    font-family: 'Dosis', sans-serif ;
+    
+
+}
+h1{ 
+    color: #ffffff;
+}
+.headercontent h2{
+    font-family: 'Raleway';
+    font-size: 48px;
+    font-weight: 700;
+    color: #637cd0;
+   
+
+}
+  .headercontent p{
+    font-family: 'Raleway';
+    font-size: 23px;
+    font-weight: 300;
+    border-right: 1px solid;
+    animation:   borderType .7s infinite;
+}
+ 
+ @keyframes borderType {
+    from{
+        border-color: rgba(0, 0, 0, 0);
+    }
+    to{
+        border-color: rgba(0, 0, 0, .4);
+    }
+ }
+
+section.header .headercontent h1{
+    font-size: 60px;
+    color: #ffffff;
+    font-family: 'Dosis' , sans-serif;
+
+}
+section.header .sociallinks{
+    margin-top: 80px;
+   
+    list-style: none;
+    /* justify-content: end; */
+}
+
+section.header .sociallinks li a{
+    display: inline-block;
+    margin-left: 10px;
+    box-shadow: #ffffff 5px 5px 5px;
+    width: 150px;
+    height: 70px;
+    transition: transform .5s;
+}
+
+section.header .sociallinks li a:hover{
+    color: white;
+    transform: rotate(360deg);
+}
+
+section.header .sociallinks li:nth-child(1) a{
+    border-color: #3b5999 !important;
+    color: #3b5999;
+    text-decoration: none;
+}
+
+section.header .sociallinks li:nth-child(1):hover a{
+    background-color: #3b5999;
+    color: white;
+}
+
+section.header .sociallinks li:nth-child(2) a{
+    border-color: white!important;
+    color: white;
+    box-shadow: #3b5999 5px 5px 5px !important;
+}
+
+section.header .sociallinks li:nth-child(2):hover a{
+    background-color: white;
+    color: #3b5999 !important;
+}
+
+/* end header */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* 50% transparent black overlay */
+    pointer-events: none; /* Allows clicks to pass through the overlay to the video */
+  }
+ 
+
+  .container{
+    width: 76%;
+}

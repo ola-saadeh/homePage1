@@ -1,0 +1,169 @@
+
+.container{
+    width: 76%  !important;
+     height: 100vh;
+    position: relative; 
+    
+    
+}
+
+.bgorange{
+    background-color: #36419A !important;
+    color: white !important ;
+}
+
+.headingcontent{
+    width: fit-content;
+    right: 2% !important;
+   
+}
+
+.roow
+{
+    margin-left: 10% !important;
+}
+.headingcontent span{
+     top: -30px;
+     left: -30px;
+     color: #818181;
+     border-bottom: 1px solid #36419A;
+     padding-right: 15px;
+     font-weight: 500;
+}
+
+/* start resume */
+section.resume{
+    padding-top: 10%;
+    margin-bottom: 50% ;
+    background-color: white;
+    position: absolute; 
+    top: 420%;
+    left: 5%;
+    height: 100vh;
+}
+section.resume .bioitem .head:hover i{
+    background-color: #f3f3f3;
+    color: #3b5999;
+}
+
+section.resume .bioitem .descrip{
+    padding-left: 50px;
+}
+section.resume .bioitem .descrip .item {
+    font-size: 14px;
+    
+}
+section.resume .bioitem .head h3{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+section.resume .bioitem .descrip .item h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+section.resume .bioitem .descrip .item h4 .wightd{
+    font-weight: 500;
+}
+
+section.resume .bioitem .descrip .item .date{
+    color: #3b5999;
+}
+
+section.resume .bioitem .head::before{
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: 47px;
+    height: 100%;
+    width: 1px;
+    background-color: #3b3b3b;
+}
+
+section.resume .bioitem img{
+    width: 100%;
+}
+
+/* draw circle */
+section.resume .bioitem .item::after{
+    position:absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 1px solid #3b5999;
+    background-color: #fff;
+    border-radius: 50%;
+    top:7px;
+    left: -30px;
+    transition: background-color .5s;
+}
+
+section.resume .bioitem .item:hover::after{
+    background-color: #3b5999;
+}
+
+/* draw line */
+section.resume .bioitem .item:not(:last-of-type)::before{
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 14px;
+    height: 123%;
+    width: 1px;
+    background-color: #3b3b3b;
+}
+
+/* third */
+section.resume .bioitem .item .bar{
+    width: 100%;
+    height: 6px;
+    background-color: #3b3b3b;
+    border-radius: 30px;
+    
+}
+section.resume .bioitem .item .bar::after{
+    background-color: #3b5999;
+    content: '';
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 6px;
+}
+
+section.resume .bioitem .item[val='80'] .bar::after,
+section.resume .bioitem .item[val='80'] h4{
+    width: 80%;
+}
+section.resume .bioitem .item[val='70'] .bar::after,
+section.resume .bioitem .item[val='70'] h4{
+    width: 70%;
+}
+section.resume .bioitem .item[val='55'] .bar::after,
+section.resume .bioitem .item[val='55'] h4{
+    width: 55%;
+}
+
+section.resume .bioitem .head.ola::before{
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: 47px;
+    height: 450%;
+    width: 1px;
+    background-color: #3b3b3b;
+}
+section.resume .bioitem .item.ola:not(:last-of-type)::before{
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 14px;
+    height: 150%;
+    width: 1px;
+    background-color: #3b3b3b;
+}
+section.resume .bioitem.wid80{
+    width: 93%;
+}
+/* end resume */

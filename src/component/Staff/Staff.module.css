@@ -1,0 +1,109 @@
+
+.container{
+    width: 76%  !important;
+     /* height: 100vh; */
+    position: relative; 
+     left: 10%;
+    
+    
+}
+p,h3{
+    font-family: 'Dosis', sans-serif;
+}
+.myname{
+    color:#fff !important;
+}
+.sz{
+    width:auto !important;
+    margin-left: 20%;
+}
+.bgorange{
+    background-color: #36419A !important;
+    color: white !important ;
+}
+
+.headingcontent{
+    width: fit-content;
+    right: 2% !important;
+   
+}
+
+.roow
+{
+    margin-left: 10% !important;
+}
+.headingcontent span{
+     top: -30px;
+     left: -30px;
+     color: #818181;
+     border-bottom: 1px solid #36419A;
+     padding-right: 15px;
+     font-weight: 500;
+}
+
+/* start CV */
+section.cv{
+    /* background-image: url("../img/pci_najah.jpg"); */
+    background-color: #3b5999;
+    background-size: cover;
+    text-align: left;
+    /* position: relative; */
+    min-height: 350px;
+    position: absolute !important ; 
+    top: 550% !important;
+    width: 100%;
+   
+    
+}
+
+section.cv h2{
+    color: #f3f3f3;
+    font-size: 32px;
+    margin-top: 80px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+section.cv a{
+    font-size: 13px;
+    color: #f3f3f3;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 14px 8px 15px;
+    transition: .5s;
+
+}
+
+section.cv a:hover{
+    background-color: #3b5999;
+    border-color: #3b5999 !important;
+    color: #fff;
+}
+
+section.cv .row{
+    z-index: 1;
+    position: relative;
+}
+
+.staffMember {
+    text-align: center;
+  }
+  
+  .imageWrapper {
+    display: inline-block;
+    padding: 3px; /* Add padding for the shadow effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the image */
+    border-radius: 50%;
+  }
+section.cv::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #3b3b3b;
+    opacity: 0.25;
+    
+}
+/* end CV */

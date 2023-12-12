@@ -1,0 +1,87 @@
+.rnavlogo{
+    width: 90px;
+    height: 80px;
+}
+
+.nav{
+    display: block !important;
+    margin-top: 0;
+
+}
+.bggray {
+    background-color: rgba(128, 128, 128, 0.827); /* Change this to the shade of gray you want */
+}
+.bgorange{
+    background-color: #36419A !important;
+    color: white  !important;
+}
+.container{
+    width: 76%;
+    display: flex;
+    flex-flow: row;
+    margin-left: 10%;
+} 
+/* start navbar */
+.navbar{
+    z-index: 99 ; 
+    
+
+}
+
+.navbar .navbarnav .navitem:not(:last-child) .navlink::after{
+    position: absolute;
+    content: '';
+    background-color: #36419A;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: width .5s;
+}
+
+.navbar .navbarnav .navitem:not(:last-child) .navlink{
+    display: inline-flex;
+}
+
+.navbar .navbarnav .navitem .navlink:hover::after {
+    width: 100%;
+}
+
+.navbar .navbarnav .navitem .navlink.active::after{
+    width: 100%;
+}
+
+
+.navbar .navbarnav .navitem .navlink {
+    text-decoration: none;
+    color: rgb(255, 255, 255) !important;
+    cursor: pointer;
+}
+
+.navbar .navbarnav .navitem .navlink i{
+    transition: transform 1s;
+}
+
+.navbar .navbarnav .navitem .navlink.ola{
+    width: 160px ;
+    display: flex ;
+    height: 40px ;
+    justify-content: space-evenly;
+    cursor: pointer !important;
+    
+   
+}
+
+.navbar .navbarnav .navitem .navlink:hover span{
+    background-color: rgb(255, 255, 255) !important;
+    color: white !important;
+ 
+}
+
+.navbar .navbarnav .navitem .navlink:hover i{
+    transform: rotate(360deg);
+}
+
+ 
+
+/* end navbar */

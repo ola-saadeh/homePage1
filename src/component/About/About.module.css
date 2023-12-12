@@ -1,0 +1,99 @@
+.container{
+    width: 76% !important;
+    height: 80vh;
+    position: relative;
+    /* position: absolute !important;
+    top: 80%;
+    z-index: 3333 !important; */
+}
+/* start about */
+
+section.about .bgabout{
+    background-color: #4e4e4e;
+}
+
+
+section.about .numbers {
+    height: 150px;
+    padding: 20px;
+    
+
+}
+section.about span{
+    font-weight: 700;
+    font-size: 24px;
+}
+section.about h3{
+font-size: 16px;
+font-weight: 700 ;
+}
+
+@media screen and (max-width:768px){
+    section.about .numbers{
+        border: none !important;
+    }
+}
+
+
+section.about .about1{
+    font-size: 16px;   
+}
+
+section.about h2{
+    font-family: 'Dosis', sans-serif ;
+    font-size: 48px;
+    width: 60%;
+    margin-left: 20px;
+    margin-bottom: 18px;
+}
+
+.about a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: baseline;
+    width: 157px; 
+    overflow: hidden; 
+   
+}
+
+.about .olasaaaa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about a .icon{
+    border-top-right-radius: 0px  !important;
+    border-bottom-right-radius: 0px !important;
+    background-color: #4e4e4e;
+    padding: 0px 4px;
+} 
+
+.about a .icon i{
+    padding: 16px 13px;
+    font-size: 11px;
+    text-align: center;
+    
+}
+
+.about a .see{
+    color: #36419A;
+    font-size: 15px;
+    font-weight: 700 ;
+
+    font-family: 'Raleway', sans-serif;
+    
+}
+.about a:hover .icon i{
+  color: #36419A;
+}
+/* end about */
+.bgorange{
+    background-color: #36419A;
+    color: white ;
+}
